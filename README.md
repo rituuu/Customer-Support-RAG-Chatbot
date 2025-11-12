@@ -3,6 +3,7 @@
 
 An enterprise-scale AI Customer Support Assistant designed to automate Tier-1 support queries in real time using a fine-tuned Google Gemma 1.1-2B-IT model integrated with RAG Architecture to cut customer support costs by **50%**, and deliver **real-time, policy-aligned customer resolutions** with **<1 min latency**.
 
+
 Finetuned Gemma model hosted on Hugging Face - https://huggingface.co/RituGujela100/gemma-qlora-customer-support-v2.0
 #### App is fully functional and deployed on Hugging Face Spaces
 
@@ -98,6 +99,7 @@ python app.py
 
 A domain-specific, fine-tuned Gemma RAG Assistant capable of providing real-time, policy-aligned customer resolutions while cutting operational costs and improving satisfaction scores — demonstrating hands-on mastery in
 LLMOps, Retrieval Engineering, Fine-Tuning Optimization, and Production-Scale AI Deployment.
+
 
 
 
