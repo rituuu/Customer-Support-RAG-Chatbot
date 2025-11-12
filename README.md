@@ -40,8 +40,7 @@ It combines a **fine-tuned Google Gemma 1.1–2B-IT** model with **Hugging Face 
 ### 4. Deployment
 - Built an interactive Gradio interface and Deployed the complete **RAG pipeline** on **Hugging Face Spaces**  for real-time query handling. 
 
-<img width="1024" height="1024" alt="Gemini_Generated_Image_b7x0kzb7x0kzb7x0" src="https://github.com/user-attachments/assets/616415d0-b190-4e4a-a531-d3a19e985038" />
-
+#### <img width="1024" height="846" alt="Gemini_Generated_Image_b7x0kzb7x0kzb7x0" src="https://github.com/user-attachments/assets/c084036d-fc37-4323-9110-86a834d8aedd" />
 
 ---
 
@@ -106,6 +105,7 @@ python app.py
 
 A domain-specific, fine-tuned Gemma RAG Assistant capable of providing real-time, policy-aligned customer resolutions while cutting operational costs and improving satisfaction scores — demonstrating hands-on mastery in
 LLMOps, Retrieval Engineering, Fine-Tuning Optimization, and Production-Scale AI Deployment.
+
 
 
 
