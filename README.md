@@ -1,7 +1,7 @@
 # End-to-End RAG-Based Customer Support Assistant  
 **Fine-Tuned Gemma LLM + AWS Bedrock + FAISS**
 
-> 🚀 An enterprise-scale AI assistant that merges fine-tuned LLMs and RAG to cut customer support costs by **50%**, automate **70% of Tier-1 queries**, and deliver **real-time, policy-aligned customer resolutions** with **<1 min latency**.
+> An enterprise-scale AI assistant that merges fine-tuned LLMs and RAG to cut customer support costs by **50%**, automate **70% of Tier-1 queries**, and deliver **real-time, policy-aligned customer resolutions** with **<1 min latency**.
 
 ---
 
@@ -95,4 +95,5 @@ python app.py
 
 A domain-specific, fine-tuned Gemma RAG Assistant capable of providing real-time, policy-aligned customer resolutions while cutting operational costs and improving satisfaction scores — demonstrating hands-on mastery in
 LLMOps, Retrieval Engineering, Fine-Tuning Optimization, and Production-Scale AI Deployment.
+
 
