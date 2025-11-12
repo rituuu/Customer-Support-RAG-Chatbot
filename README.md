@@ -54,17 +54,6 @@ It combines a **fine-tuned Google Gemma 1.1–2B-IT** model with **Hugging Face 
 ---
 
 ## Business Impact
-
-| **Business Metric** | **Before AI** | **After RAG Assistant** | **Impact** |
-|----------------------|---------------|--------------------------|-------------|
-| Response Time | ~20 s | < 4 s | ↑ 80% faster |
-| Query Resolution Accuracy | 65% | 92% | ↑ 42% accuracy gain |
-| Customer Satisfaction (CSAT) | 75% | 86% | ↑ 15% improvement |
-| Support Cost | 100% baseline | 50% | ↓ 50% OPEX reduction |
-| Agent Load | 100% manual | 30% manual | ↑ 70% automation |
-| Scalability | Regional | Global | ↑ 5× query handling capacity |
-
-**Summary:**  
 - Reduced customer handling time from **minutes to seconds**.
 - Freed **70% of support agent bandwidth** for escalations.  
 - Ensured **tone-consistent, policy-compliant communication** across markets.  
@@ -106,6 +95,7 @@ python app.py
 
 A domain-specific, fine-tuned Gemma RAG Assistant capable of providing real-time, policy-aligned customer resolutions while cutting operational costs and improving satisfaction scores — demonstrating hands-on mastery in
 LLMOps, Retrieval Engineering, Fine-Tuning Optimization, and Production-Scale AI Deployment.
+
 
 
 
