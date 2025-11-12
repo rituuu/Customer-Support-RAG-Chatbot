@@ -7,7 +7,7 @@
 
 ## Key Highlights
 
-Automation of 70% repetitive Tier-1 customer queries
+Automation of 70% repetitive Tier-1 customer queries <br
 24/7 customer support
 Faster response time with 15 % improvement in customer satisfaction (CSAT)
 40 % reduction in customer-support OPEX
@@ -103,6 +103,7 @@ python app.py
 
 A domain-specific, fine-tuned Gemma RAG Assistant capable of providing real-time, policy-aligned customer resolutions while cutting operational costs and improving satisfaction scores — demonstrating hands-on mastery in
 LLMOps, Retrieval Engineering, Fine-Tuning Optimization, and Production-Scale AI Deployment.
+
 
 
 
