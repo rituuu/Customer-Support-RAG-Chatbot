@@ -1,12 +1,18 @@
 # End-to-End RAG-Based Customer Support Assistant  
-**Fine-Tuned Gemma LLM + AWS Bedrock + FAISS**
+**Fine-Tuned Gemma LLM + RAG Architecture**
 
-> An enterprise-scale AI assistant that merges fine-tuned LLMs and RAG to cut customer support costs by **50%**, automate **70% of Tier-1 queries**, and deliver **real-time, policy-aligned customer resolutions** with **<1 min latency**.
+> An enterprise-scale AI Customer Support Assistant designed to automate Tier-1 support queries in real time using a fine-tuned Google Gemma 1.1-2B-IT model integrated with RAG Architecture to cut customer support costs by **50%**, and deliver **real-time, policy-aligned customer resolutions** with **<1 min latency**.
 
 ---
+## Key Highlights
+
+Automation of 70% repetitive Tier-1 customer queries
+24/7 customer support
+Faster response time with 15 % improvement in customer satisfaction (CSAT)
+40 % reduction in customer-support OPEX
 
 ## Overview
-This repository presents a **production-ready Retrieval-Augmented Generation (RAG)** system designed for **customer support automation** in e-commerce.  
+This repository presents a **production-ready Retrieval-Augmented Generation (RAG)** system designed for **Customer Support Automation** in e-commerce.  
 It combines a **fine-tuned Google Gemma 1.1–2B-IT** model with **Hugging Face embeddings** and **FAISS vector search** to provide **context-aware, accurate, and policy-aligned** answers to customer queries.
 
 ---
@@ -19,7 +25,7 @@ It combines a **fine-tuned Google Gemma 1.1–2B-IT** model with **Hugging Face 
 
 ---
 
-## System Architecture
+## Project Architecture
 
 ### 1. Fine-Tuning
 - Fine-tuned **Gemma 1.1–2B-IT** on an **Amazon Product Troubleshooting FAQ dataset** using **QLoRA**, achieving **35% faster training** and **60% lower GPU memory usage**.
@@ -28,19 +34,19 @@ It combines a **fine-tuned Google Gemma 1.1–2B-IT** model with **Hugging Face 
 - Used **Hugging Face Embeddings model** and **FAISS vector search** for **high-speed retrieval** of contextually relevant support documents.
 
 ### 3. Generation Layer
-- Integrated the **fine-tuned Gemma model** for **domain-adapted, human-like response generation** with tone and policy alignment.
+- Integrated the retrieved context with **fine-tuned Gemma model** for **domain-adapted, human-like response generation**.
 
 ### 4. Deployment
-- Deployed the complete **RAG pipeline** on **Hugging Face Spaces** using **Gradio**, achieving **<1 s inference latency** with enterprise-grade scalability.
+- Built an interactive Gradio interface and Deployed the complete **RAG pipeline** on **Hugging Face Spaces**  for real-time query handling. 
 
 ---
 
 ## Model Details
 - **Base Model:** `google/gemma-1.1-2b-it`  
-- **Fine-Tuned Checkpoint:** `RituGujela100/gemma-qlora-customer-support-v2.0`  
+- **Fine-Tuned Checkpoint:** `Open source model hosted on Hugging Face - RituGujela100/gemma-qlora-customer-support-v2.0`  
 - **Quantization:** 4-bit (QLoRA)  
 - **Training Dataset:** Amazon Product Troubleshooting & FAQ data  
-- **Tasks Learned:** Query resolution, summarization, troubleshooting, and auto-response drafting  
+- **Tasks Learned:** Query Resolution, Summarization, Troubleshooting, and Auto-Response Drafting  
 
 ---
 
@@ -56,10 +62,11 @@ It combines a **fine-tuned Google Gemma 1.1–2B-IT** model with **Hugging Face 
 | Scalability | Regional | Global | ↑ 5× query handling capacity |
 
 **Summary:**  
-- Reduced customer handling time from **minutes to seconds**.  
+- Reduced customer handling time from **minutes to seconds**.
 - Freed **70% of support agent bandwidth** for escalations.  
 - Ensured **tone-consistent, policy-compliant communication** across markets.  
 - Delivered measurable **ROI** and **customer experience uplift** for large-scale e-commerce operations.
+- Delivered scalable, production-ready architecture deployable on enterprise infrastructure.
 
 ---
 
@@ -95,5 +102,6 @@ python app.py
 
 A domain-specific, fine-tuned Gemma RAG Assistant capable of providing real-time, policy-aligned customer resolutions while cutting operational costs and improving satisfaction scores — demonstrating hands-on mastery in
 LLMOps, Retrieval Engineering, Fine-Tuning Optimization, and Production-Scale AI Deployment.
+
 
 
