@@ -1,0 +1,50 @@
+# langchain
+# langchainhub
+# langchain_aws
+# accelerate
+# #bs4
+# beautifulsoup4
+# tiktoken
+# openai
+# boto3>=1.37.24
+# langchain_community
+# chromadb
+# awscli
+# streamlit
+# pypdf
+# faiss-cpu
+# PyMuPDF
+
+# transformers
+# torch
+# gradio
+# huggingface_hub
+# python-dotenv
+# bitsandbytes
+#langchain-huggingface
+
+langchain==0.1.13
+langchainhub
+langchain_aws
+accelerate
+#bs4
+beautifulsoup4
+tiktoken
+openai
+#boto3>=1.37.24
+langchain-community==0.0.33
+langchain-core==0.1.52
+chromadb
+awscli
+streamlit
+pypdf
+faiss-cpu
+transformers==4.44.2
+torch==2.3.1
+torchvision==0.18.1
+torchaudio==2.3.1
+gradio
+huggingface_hub
+python-dotenv
+bitsandbytes
+sentence-transformers==2.6.1
