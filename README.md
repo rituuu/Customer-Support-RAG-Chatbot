@@ -4,17 +4,16 @@
 > An enterprise-scale AI Customer Support Assistant designed to automate Tier-1 support queries in real time using a fine-tuned Google Gemma 1.1-2B-IT model integrated with RAG Architecture to cut customer support costs by **50%**, and deliver **real-time, policy-aligned customer resolutions** with **<1 min latency**.
 
 ---
+## Overview
+This repository presents a **production-ready Retrieval-Augmented Generation (RAG)** system designed for **Customer Support Automation** in e-commerce.  
+It combines a **fine-tuned Google Gemma 1.1–2B-IT** model with **Hugging Face embeddings** and **FAISS vector search** to provide **context-aware, accurate, and policy-aligned** answers to customer queries.
+
 ## Key Highlights
 
 Automation of 70% repetitive Tier-1 customer queries
 24/7 customer support
 Faster response time with 15 % improvement in customer satisfaction (CSAT)
 40 % reduction in customer-support OPEX
-
-## Overview
-This repository presents a **production-ready Retrieval-Augmented Generation (RAG)** system designed for **Customer Support Automation** in e-commerce.  
-It combines a **fine-tuned Google Gemma 1.1–2B-IT** model with **Hugging Face embeddings** and **FAISS vector search** to provide **context-aware, accurate, and policy-aligned** answers to customer queries.
-
 ---
 
 ## Tech Stack
@@ -102,6 +101,7 @@ python app.py
 
 A domain-specific, fine-tuned Gemma RAG Assistant capable of providing real-time, policy-aligned customer resolutions while cutting operational costs and improving satisfaction scores — demonstrating hands-on mastery in
 LLMOps, Retrieval Engineering, Fine-Tuning Optimization, and Production-Scale AI Deployment.
+
 
 
 
