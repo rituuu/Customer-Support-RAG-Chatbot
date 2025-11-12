@@ -1,17 +1,17 @@
-# 🧠 End-to-End RAG-Based Customer Support Assistant  
+# End-to-End RAG-Based Customer Support Assistant  
 **Fine-Tuned Gemma LLM + AWS Bedrock + FAISS**
 
 > 🚀 An enterprise-scale AI assistant that merges fine-tuned LLMs and RAG to cut customer support costs by **50%**, automate **70% of Tier-1 queries**, and deliver **real-time, policy-aligned customer resolutions** with **<1 min latency**.
 
 ---
 
-## 🔍 Overview
+## Overview
 This repository presents a **production-ready Retrieval-Augmented Generation (RAG)** system designed for **customer support automation** in e-commerce.  
 It combines a **fine-tuned Google Gemma 1.1–2B-IT** model with **Hugging Face embeddings** and **FAISS vector search** to provide **context-aware, accurate, and policy-aligned** answers to customer queries.
 
 ---
 
-## ⚙️ Tech Stack
+## Tech Stack
 - **Languages & Frameworks:** Python, Hugging Face, Transformers, LangChain, Gradio  
 - **Model Optimization:** PEFT (QLoRA), BitsAndBytes (4-bit quantization)  
 - **Retrieval Layer:** Hugging Face Embeddings + FAISS Vector Database  
@@ -19,7 +19,7 @@ It combines a **fine-tuned Google Gemma 1.1–2B-IT** model with **Hugging Face 
 
 ---
 
-## 🧩 System Architecture
+## System Architecture
 
 ### 1. Fine-Tuning
 - Fine-tuned **Gemma 1.1–2B-IT** on an **Amazon Product Troubleshooting FAQ dataset** using **QLoRA**, achieving **35% faster training** and **60% lower GPU memory usage**.
@@ -35,7 +35,7 @@ It combines a **fine-tuned Google Gemma 1.1–2B-IT** model with **Hugging Face 
 
 ---
 
-## 🧠 Model Details
+## Model Details
 - **Base Model:** `google/gemma-1.1-2b-it`  
 - **Fine-Tuned Checkpoint:** `RituGujela100/gemma-qlora-customer-support-v2.0`  
 - **Quantization:** 4-bit (QLoRA)  
@@ -44,7 +44,7 @@ It combines a **fine-tuned Google Gemma 1.1–2B-IT** model with **Hugging Face 
 
 ---
 
-## 💼 Business Impact
+## Business Impact
 
 | **Business Metric** | **Before AI** | **After RAG Assistant** | **Impact** |
 |----------------------|---------------|--------------------------|-------------|
@@ -63,7 +63,7 @@ It combines a **fine-tuned Google Gemma 1.1–2B-IT** model with **Hugging Face 
 
 ---
 
-## 🖥️ Demo
+## Demo
 🔗 **Live Demo:** [Hugging Face Spaces – Customer Support RAG Chatbot](https://huggingface.co/spaces/your-space-link)  
 *(Replace with your actual Space link)*
 
@@ -71,7 +71,7 @@ It combines a **fine-tuned Google Gemma 1.1–2B-IT** model with **Hugging Face 
 
 ---
 
-## 🧰 Setup Instructions
+## Setup Instructions
 ```bash
 # Clone repository
 git clone https://github.com/<your-username>/Customer-Support-RAG.git
@@ -83,7 +83,7 @@ pip install -r requirements.txt
 # Run locally
 python app.py
 
-## 💬 Example Queries
+## Example Queries
 
 “My refrigerator isn’t cooling even after resetting — what should I do?”
 
@@ -95,3 +95,4 @@ python app.py
 
 A domain-specific, fine-tuned Gemma RAG Assistant capable of providing real-time, policy-aligned customer resolutions while cutting operational costs and improving satisfaction scores — demonstrating hands-on mastery in
 LLMOps, Retrieval Engineering, Fine-Tuning Optimization, and Production-Scale AI Deployment.
+
