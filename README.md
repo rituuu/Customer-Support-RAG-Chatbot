@@ -93,13 +93,15 @@ python app.py
 
 “I returned a product 5 days ago, but the refund hasn’t been processed.”
 
-“How can I claim warranty for a damaged headphone?”
+"How can I claim warranty for a damaged headphone?”
+
 ---
 
-🏁 Outcome
+## 🏁 Outcome
 
 A domain-specific, fine-tuned Gemma RAG Assistant capable of providing real-time, policy-aligned customer resolutions while cutting operational costs and improving satisfaction scores — demonstrating hands-on mastery in
 LLMOps, Retrieval Engineering, Fine-Tuning Optimization, and Production-Scale AI Deployment.
+
 
 
 
