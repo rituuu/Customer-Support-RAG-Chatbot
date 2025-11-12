@@ -84,7 +84,7 @@ It combines a **fine-tuned Google Gemma 1.1–2B-IT** model with **Hugging Face 
 ## Setup Instructions
 ```bash
 # Clone repository
-git clone https://github.com/<your-username>/Customer-Support-RAG.git
+git clone https://github.com/rituuu/Customer-Support-RAG-Chatbot.git
 cd Customer-Support-RAG
 
 # Install dependencies
@@ -106,6 +106,7 @@ python app.py
 
 A domain-specific, fine-tuned Gemma RAG Assistant capable of providing real-time, policy-aligned customer resolutions while cutting operational costs and improving satisfaction scores — demonstrating hands-on mastery in
 LLMOps, Retrieval Engineering, Fine-Tuning Optimization, and Production-Scale AI Deployment.
+
 
 
 
