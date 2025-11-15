@@ -1,33 +1,7 @@
-# langchain
-# langchainhub
-# langchain_aws
-# accelerate
-# #bs4
-# beautifulsoup4
-# tiktoken
-# openai
-# boto3>=1.37.24
-# langchain_community
-# chromadb
-# awscli
-# streamlit
-# pypdf
-# faiss-cpu
-# PyMuPDF
-
-# transformers
-# torch
-# gradio
-# huggingface_hub
-# python-dotenv
-# bitsandbytes
-#langchain-huggingface
-
 langchain==0.1.13
 langchainhub
 langchain_aws
 accelerate
-#bs4
 beautifulsoup4
 tiktoken
 openai
