@@ -4,7 +4,7 @@ import json
 import fitz  # PyMuPDF
 
 DATA_DIR = "./data"
-OUTPUT_FILE = "Processed_FAQ_data22.jsonl"
+OUTPUT_FILE = "Processed_FAQ_data.jsonl"
 
 
 def extract_qa_from_pdf_text(text):
@@ -69,3 +69,4 @@ if __name__ == "__main__":
             pdf_path = os.path.join(DATA_DIR, file)
             convert_pdf_to_jsonl(pdf_path, OUTPUT_FILE)
     print(" PDF to JSONL conversion complete. File ready for fine-tuning!")
+
