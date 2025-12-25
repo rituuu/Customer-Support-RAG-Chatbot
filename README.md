@@ -68,11 +68,6 @@ It combines a **fine-tuned Google Gemma 1.1–2B-IT** model with **Hugging Face 
 
 ---
 
-## Demo
-🔗 **Live Demo:** [Hugging Face Spaces – Customer Support RAG Chatbot](https://huggingface.co/spaces/your-space-link)  
-
----
-
 ## Setup Instructions
 ```bash
 # Clone repository
@@ -100,6 +95,7 @@ python app.py
 
 A domain-specific, fine-tuned Gemma RAG Assistant capable of providing real-time, policy-aligned customer resolutions while cutting operational costs and improving satisfaction scores — demonstrating hands-on mastery in
 LLMOps, Retrieval Engineering, Fine-Tuning Optimization, and Production-Scale AI Deployment.
+
 
 
 
